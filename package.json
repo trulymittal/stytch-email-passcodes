@@ -1,0 +1,23 @@
+{
+  "name": "stytch-email-passcodes",
+  "version": "1.0.0",
+  "description": "React + Express for handling authentication using Stytch email passcodes",
+  "main": "index.js",
+  "scripts": {
+    "install": "cd backend && npm install && cd .. && cd frontend && npm install",
+    "backend": "cd backend && npm run dev",
+    "frontend": "cd frontend && npm start",
+    "dev": "concurrently 'npm run backend' 'npm run frontend'"
+  },
+  "keywords": [
+    "stytch",
+    "stych",
+    "email",
+    "passcodes"
+  ],
+  "author": "Truly Mittal <trulymittal@gmail.com> (https://trulymittal.com)",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^7.0.0"
+  }
+}

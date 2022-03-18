@@ -1,0 +1,15 @@
+.title {
+  text-align: center;
+  font-size: 4rem;
+  font-weight: 900;
+  letter-spacing: 0.1rem;
+  color: #1b9a98;
+}
+
+.sub-heading {
+  text-align: center;
+  font-size: 5rem;
+  font-weight: 900;
+  letter-spacing: 0.3rem;
+  font-family: monospace;
+}

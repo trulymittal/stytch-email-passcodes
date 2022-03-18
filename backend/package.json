@@ -1,0 +1,25 @@
+{
+  "name": "stytch-backend-email-otp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "Truly Mittal <trulymittal@gmail.com> (https://trulymittal.com)",
+  "license": "MIT",
+  "dependencies": {
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "http-errors": "^2.0.0",
+    "morgan": "^1.10.0",
+    "stytch": "^3.12.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}

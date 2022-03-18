@@ -1,0 +1,46 @@
+header {
+  border-bottom: 2px solid #eff6ff;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #3b82f6;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+nav > h2 {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+nav > ul {
+  padding: 0;
+  margin: 0;
+}
+
+nav > ul > li {
+  list-style: none;
+  display: inline-block;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+nav > ul > li > a,
+nav > ul > li.logout {
+  text-decoration: none;
+  color: #3b82f6;
+  display: inline-block;
+  padding: 16px;
+}
+
+nav > ul > li:hover {
+  background: #eff6ff;
+}
+
+main {
+  max-width: 1200px;
+  margin: 16px auto;
+}

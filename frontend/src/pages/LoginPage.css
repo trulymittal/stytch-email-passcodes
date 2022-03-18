@@ -1,0 +1,83 @@
+.container {
+  display: grid;
+  place-items: center;
+}
+
+.email-container {
+  margin-top: 64px;
+  padding: 16px;
+  border-radius: 16px;
+  box-shadow: 0px 0px 6px 0px #dbeafe;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.otp-form-container {
+  margin-top: 64px;
+  padding: 16px;
+  border-radius: 16px;
+  box-shadow: 0px 0px 6px 0px #dbeafe;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.email-container > h2,
+.otp-form-container > h2 {
+  margin: 0;
+}
+
+.otp-form-container > input {
+  text-align: center;
+  font-size: 2rem;
+  letter-spacing: 0.8rem;
+  font-weight: 600;
+}
+
+.otp-form-container > input::-webkit-outer-spin-button,
+.otp-form-container > input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.otp-container {
+  display: flex;
+  flex-direction: column;
+}
+
+button.change-email {
+  background-color: white;
+  color: #3b82f6;
+  border: none;
+  font-weight: 500;
+  font-size: medium;
+  align-self: center;
+}
+
+input {
+  align-self: stretch;
+  padding: 8px;
+  font-size: 1.2rem;
+  border: 2px solid #dbeafe;
+  border-radius: 8px;
+  color: #334155;
+}
+
+button {
+  align-self: stretch;
+  padding: 8px;
+  font-size: 1.2rem;
+  border: 2px solid #3b82f6;
+  border-radius: 8px;
+  margin-top: 16px;
+  background-color: #3b82f6;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+button:hover,
+button:active {
+  background-color: #dbeafe;
+  color: #3b82f6;
+}
