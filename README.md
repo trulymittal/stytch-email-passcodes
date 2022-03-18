@@ -11,6 +11,10 @@ npm install
 npm run dev
 ```
 
+## Video Tutorial
+
+https://youtu.be/lvBN1bBa2pc
+
 ## Author
 
 [**Truly Mittal 🇮🇳**](https://trulymittal.com)
