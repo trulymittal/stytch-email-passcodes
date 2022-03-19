@@ -14,7 +14,7 @@ export default function Layout({ children }) {
     <>
       <header>
         <nav>
-          <h2 className='nav-heading'>Stytch Email OTPs</h2>
+          <h2 className='nav-heading'>Stytch Email passcodes</h2>
           <ul>
             <li>
               <Link to='/'>Home</Link>
